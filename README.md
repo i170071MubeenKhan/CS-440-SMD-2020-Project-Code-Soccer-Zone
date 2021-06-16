@@ -4,7 +4,7 @@
 <p align="center" style="font-size:12px;color:dimgray;"><strong></strong>
 </p>
 <p align="center">
-    <img src="assets/soccor_zone.PNG" alt=""/>
+    <img src="assets/soccor_zone.png" alt=""/>
 </p>
 
 An android application that has soccer/football equipment including shoes, footballs, socks, gloves, and football kits from various brands that the user can browse through and buy desired soccer equipment.
@@ -17,6 +17,6 @@ The objective of this project was to become familiar with Android, Firebase data
 <p align="center" style="font-size:12px;color:dimgray;"><strong>Logo</strong>
 </p>
 <p align="center">
-    <img src="assets/_0 App Search.PNG" alt=""/>
+    <img src="assets/_0 App Search.jpg" alt=""/>
 </p>
 
