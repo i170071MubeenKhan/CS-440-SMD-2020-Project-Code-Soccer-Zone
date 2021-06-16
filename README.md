@@ -14,8 +14,8 @@ The objective of this project was to become familiar with Android, Firebase data
 **Project Proposal:** [pdf](assets/CS440_Software_for_Mobile_Devices_Project_Proposal.pdf)
 
 <br />
-<p align="center" style="font-size:12px;color:dimgray;"><strong>Logo</strong>
-</p>
+<h2 align="center" style="font-size:12px;color:dimgray;"><strong>Logo</strong>
+</h2>
 <p align="center">
     <img src="assets/_0 App Search.jpg" alt=""/>
 </p>
