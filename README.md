@@ -18,14 +18,14 @@ The objective of this project was to become familiar with Android, Firebase data
 </p>
 
 <br />
-<h1 align="center" style="font-size:12px;color:dimgray;"><strong>Login Screen</strong>
+<h1 align="center" style="font-size:12px;color:dimgray;"><strong>Log-in Screen</strong>
 </h1>
 <p align="center">
     <img src="assets/_1 Login.jpg" alt=""/>
 </p>
 
 <br />
-<h1 align="center" style="font-size:12px;color:dimgray;"><strong>Login Screen</strong>
+<h1 align="center" style="font-size:12px;color:dimgray;"><strong>Sign-up Screen</strong>
 </h1>
 <p align="center">
     <img src="assets/_2 Signup.jpg" alt=""/>
