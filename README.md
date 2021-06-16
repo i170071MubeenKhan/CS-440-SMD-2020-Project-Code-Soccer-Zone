@@ -6,7 +6,7 @@
 
 An android application that has soccer/football equipment including shoes, footballs, socks, gloves, and football kits from various brands that the user can browse through and buy desired soccer equipment.
 
-The objective of this project was to become familiar with Android, Firebase database, REST API, and web services MySQL.
+The objective of this project was to become familiar with Android, REST API, and web services MySQL.
 
 **Project Proposal:** [pdf](assets/CS440_Software_for_Mobile_Devices_Project_Proposal.pdf)
 
