@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    android:background="@color/colorLightGrey"
+    app:cardUseCompatPadding="true">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/row_cd_img"
+            android:src="@mipmap/ic_launcher"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/row_cd_title"
+            android:text="Title"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/colorText"
+            android:layout_toRightOf="@id/row_cd_img"
+            android:layout_marginLeft="20dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:id="@+id/row_cd_text"
+            android:text="Description "
+            android:textSize="14sp"
+            android:textColor="@color/colorGrey"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/row_cd_title"
+            android:layout_toRightOf="@id/row_cd_img"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="22sp"
+            android:id="@+id/row_cd_price0"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/row_cd_text"
+            android:text="Rs. "
+            android:gravity="bottom"
+            android:textSize="14sp"
+            android:textColor="@color/colorBlack"
+            android:layout_toLeftOf="@id/row_cd_price1"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="22sp"
+            android:id="@+id/row_cd_price1"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/row_cd_text"
+            android:text="15999"
+            android:gravity="bottom"
+            android:textSize="14sp"
+            android:textColor="@color/colorBlack"
+            android:layout_toLeftOf="@id/row_cd_price2"
+            android:background="@drawable/diagonal_line"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/row_cd_price2"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+
+            android:text="11999"
+            android:textSize="16sp"
+            android:textColor="@color/colorBlack"
+            android:layout_below="@id/row_cd_text"
+            android:layout_alignEnd="@id/row_cd_text"
+            android:layout_alignRight="@id/row_cd_text" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

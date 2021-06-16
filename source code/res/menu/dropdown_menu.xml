@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/main_menu"
+        android:title="Main menu"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/popular_deals"
+        android:title="Popular deals"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/notifications"
+        android:title="Notifications"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/purchase_history"
+        android:title="Purchase history"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/sign_out"
+        android:title="Sign out"
+        app:showAsAction="never"
+        />
+</menu>

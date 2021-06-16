@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    android:background="@color/colorLightGrey"
+    app:cardUseCompatPadding="true">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/row_oh_img"
+            android:src="@mipmap/ic_launcher"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/row_oh_title"
+            android:text="Title"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/colorText"
+            android:layout_toRightOf="@id/row_oh_img"
+            android:layout_marginLeft="20dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/row_oh_availability"
+            android:text="Availability: "
+            android:textSize="14sp"
+            android:textColor="@color/colorGrey"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/row_oh_title"
+            android:layout_toRightOf="@id/row_oh_img"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="In stock"
+            android:textSize="14sp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/row_oh_in_stock"
+            android:textColor="@color/colorText"
+            android:layout_toRightOf="@id/row_oh_availability"
+            android:layout_below="@id/row_oh_title"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/row_oh_price0"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/row_oh_availability"
+            android:layout_toRightOf="@id/row_oh_img"
+            android:text="Rs. "
+            android:textSize="14sp"
+            android:textColor="@color/colorBlack"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/row_oh_price1"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/row_oh_availability"
+            android:layout_toRightOf="@id/row_oh_price0"
+            android:text="999"
+            android:textSize="14sp"
+            android:textColor="@color/colorBlack"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:id="@+id/row_oh_reorder"
+            android:text="Reorder"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/all_curved_corners"
+            android:backgroundTint="@color/colorText"
+            android:layout_below="@id/row_oh_price1"
+            android:layout_alignEnd="@+id/row_oh_price1"
+            android:layout_alignRight="@+id/row_oh_price1" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

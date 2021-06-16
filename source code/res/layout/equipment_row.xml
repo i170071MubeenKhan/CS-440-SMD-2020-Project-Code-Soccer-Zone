@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/row"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:id="@+id/imageIv"
+        android:src="@mipmap/ic_launcher_foreground"
+        android:gravity="center_horizontal" />
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rowTemp"
+            android:text="Title"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/colorText"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rowTemp1"
+            android:text="Availability: "
+            android:textSize="14sp"
+            android:textColor="@color/colorGrey"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/rowTemp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="In stock"
+            android:textSize="14sp"
+            android:id="@+id/rowTemp11"
+            android:textColor="@color/colorText"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/rowTemp1"
+            android:layout_below="@id/rowTemp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rowTemp2"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/rowTemp1"
+            android:text="Rs. 15,999"
+            android:textSize="14sp"
+            android:textColor="@color/colorBlack"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:id="@+id/rowTemp3"
+            android:text="Add to cart"
+            android:textAllCaps="false"
+            android:background="@drawable/all_curved_corners"
+            android:backgroundTint="@color/colorText"
+            android:layout_below="@+id/rowTemp2"
+            android:textColor="@color/colorWhite"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@id/rowTemp3"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:text="__________________________________________________"
+            android:gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorGrey"
+            />
+
+
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+
+
+

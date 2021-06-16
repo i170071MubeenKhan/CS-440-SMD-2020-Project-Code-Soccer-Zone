@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Soccer Zone</string>
+    <string-array name="Spinner_items">
+        <item>Select Equipment</item>
+        <item>Soccer Shoes</item>
+        <item>Soccer Ball</item>
+        <item>Jersey</item>
+    </string-array>
+    <string-array name="Spinner_items2">
+        <item>Select Brand</item>
+        <item>Adidas</item>
+        <item>Nike</item>
+        <item>Puma</item>
+    </string-array>
+</resources>

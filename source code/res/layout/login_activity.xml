@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="2"
+    android:orientation="vertical"
+>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="@drawable/login_background_color"
+      android:layout_weight="1"
+      android:weightSum="6"
+      android:orientation="vertical">
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="1.8"
+          />
+
+      <!--logo design-->
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:layout_weight="1.2"
+          android:orientation="horizontal"
+          >
+
+              <RelativeLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_centerHorizontal="true"
+                  android:gravity="center_horizontal">
+
+                  <TextView
+                      android:id="@+id/soccerS"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="S"
+                      android:layout_centerVertical="true"
+                      android:textColor="#FFFFFF"
+
+                      android:textSize="40dp"
+
+                      android:textStyle="bold" />
+
+                  <TextView
+                      android:id="@+id/soccerFirstO"
+                      android:layout_width="45dp"
+                      android:layout_height="45dp"
+                      android:layout_marginLeft="-7dp"
+                      android:layout_centerVertical="true"
+                      android:layout_toRightOf="@id/soccerS"
+                      android:background="@mipmap/ic_launcher_foreground"
+                      android:textColor="#FFFFFF"
+                      android:textSize="40dp"
+                      android:textStyle="bold" />
+
+                  <TextView
+                      android:id="@+id/soccerFirstC"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_toRightOf="@id/soccerFirstO"
+                      android:layout_marginLeft="-7dp"
+                      android:layout_centerVertical="true"
+                      android:text="C"
+                      android:textColor="#FFFFFF"
+                      android:textSize="40dp"
+                      android:textStyle="bold" />
+
+                  <TextView
+                      android:id="@+id/soccerSecondC"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_toRightOf="@id/soccerFirstC"
+                      android:layout_centerVertical="true"
+                      android:text="C"
+                      android:textColor="#FFFFFF"
+                      android:textSize="40dp"
+                      android:textStyle="bold" />
+
+                  <TextView
+                      android:id="@+id/soccerE"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_toRightOf="@id/soccerSecondC"
+                      android:layout_centerVertical="true"
+                      android:text="E"
+                      android:textColor="#FFFFFF"
+                      android:textSize="40dp"
+                      android:textStyle="bold" />
+
+                  <TextView
+                      android:id="@+id/soccerR"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_toRightOf="@id/soccerE"
+                      android:layout_centerVertical="true"
+                      android:text="R"
+                      android:textColor="#FFFFFF"
+                      android:textSize="40dp"
+                      android:textStyle="bold" />
+
+                  <TextView
+                      android:id="@+id/zoneZ"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_toRightOf="@id/soccerR"
+                      android:layout_centerVertical="true"
+                      android:text="Z"
+                      android:layout_marginLeft="20dp"
+                      android:textColor="#FFFFFF"
+                      android:textSize="40dp"
+                      android:textStyle="bold" />
+
+                  <TextView
+                      android:id="@+id/zoneO"
+                      android:layout_width="45dp"
+                      android:layout_height="45dp"
+                      android:layout_marginLeft="-7dp"
+                      android:layout_toRightOf="@id/zoneZ"
+                      android:layout_centerVertical="true"
+                      android:background="@mipmap/ic_launcher_foreground"
+                      android:textColor="#FFFFFF"
+                      android:textSize="40dp"
+                      android:textStyle="bold" />
+
+                  <TextView
+                      android:id="@+id/zoneN"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_toRightOf="@id/zoneO"
+                      android:layout_centerVertical="true"
+                      android:layout_marginLeft="-7dp"
+                      android:text="N"
+                      android:textColor="#FFFFFF"
+                      android:textSize="40dp"
+                      android:textStyle="bold" />
+
+                  <TextView
+                      android:id="@+id/zoneE"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_toRightOf="@id/zoneN"
+                      android:layout_centerVertical="true"
+                      android:text="E"
+                      android:textColor="#FFFFFF"
+                      android:textSize="40dp"
+                      android:textStyle="bold"/>
+              </RelativeLayout>
+
+      </LinearLayout>
+
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="2.2"/>
+      <EditText
+          android:hint="   Username"
+          android:id="@+id/login_username"
+          android:textColorHint="#4D9F88"
+          android:textColor="#4D9F88"
+          android:background="@drawable/curved_corners"
+          android:layout_marginLeft="50dp"
+          android:layout_marginRight="50dp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="0.8"
+          android:layout_marginBottom="7dp"/>
+
+
+
+  </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/login_background_color1"
+        android:layout_weight="1"
+        android:weightSum="6"
+        android:orientation="vertical">
+        <EditText
+            android:hint="   Password"
+            android:textColorHint="#4D9F88"
+            android:textColor="#4D9F88"
+            android:background="@drawable/curved_corners_bottom"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:id="@+id/login_password"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:weightSum="3"
+            >
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.5"
+                android:background="@drawable/button1"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:text="Log In"
+                android:textColor="#FFFFFF"
+                android:textStyle="normal"
+                android:textSize="25dp"
+                android:textAllCaps="false"
+                android:id="@+id/loginButton"
+                />
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="0dp"
+                 android:layout_weight="0.5"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Forgot your password?"
+                android:textAllCaps="false"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:textColor="#4D9F88"
+                android:id="@+id/forgotPassword"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Not a member? "
+                android:textAllCaps="false"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:textColor="#4D9F88"
+                android:textAlignment="textEnd"
+                android:gravity="end" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Create Account"
+                android:textAllCaps="false"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:textColor="#FFFFFF"
+                android:id="@+id/createAccount"
+                android:textAlignment="textStart"
+                android:gravity="start" />
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    android:background="@color/colorLightGrey"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/row_wn_img"
+            android:src="@mipmap/ic_launcher"
+            android:layout_centerVertical="true"
+            />
+
+        <TextView
+            android:layout_width="14sp"
+            android:layout_height="14sp"
+            android:id="@+id/row_wn_time_icon"
+            android:background="@drawable/ic_action_wn_time"
+            android:backgroundTint="@color/colorGrey"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="70dp"
+            android:layout_marginTop="2dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/row_wn_time"
+            android:layout_toRightOf="@id/row_wn_img"
+            android:text="2 hours ago"
+            android:textColor="@color/colorGrey"
+            android:layout_alignParentRight="true"
+            android:textSize="12sp"
+            android:gravity="end" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/row_wn_title"
+            android:text="Title"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/colorText"
+            android:layout_toRightOf="@id/row_wn_img"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/row_wn_time"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:id="@+id/row_wn_text"
+            android:text="Description "
+            android:textSize="14sp"
+            android:textColor="@color/colorGrey"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/row_wn_title"
+            android:layout_toRightOf="@id/row_wn_img"
+            />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
